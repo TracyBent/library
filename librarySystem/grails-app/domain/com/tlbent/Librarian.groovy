@@ -7,7 +7,7 @@ String email
 String office
 String username
 String password 
-int telephone
+String telephone
 String library
 
     static constraints = {
@@ -17,7 +17,7 @@ email blank:false, email:true
 office blank:false, nullable:false, maxSize:4 
 username blank:false, unique:true
 password blank:false
-telephone blank:false, size:1..11
+telephone blank:false, size:1..20
 library blank:false, nullable:false  
  
 
