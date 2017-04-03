@@ -6,15 +6,16 @@ String title
 String subject
 String author 
 String isbn
-
 Date dateBorrowed 
 Date returnDate 
-
 Student student
-
 Boolean overdue
-
 Library library
+String toString ()
+
+{
+"$title"
+} 
 
 static hasMany = [bookreviews:BookReview]
 

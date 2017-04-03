@@ -8,7 +8,12 @@ String userName
 String password 
 String studentId
 Course course
- 
+Library library
+String toString ()
+
+{
+"$name"
+} 
 
  static hasMany= [books:Book, bookreviews:BookReview]
 

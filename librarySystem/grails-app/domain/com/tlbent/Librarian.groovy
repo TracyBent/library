@@ -9,6 +9,14 @@ String userName
 String password 
 String telephone
 Library library
+String toString ()
+
+{
+"$name"
+}
+
+
+
 
     static constraints = {
 

@@ -7,6 +7,15 @@ String address
 String openingHours
 String location
 String studySpace
+String toString ()
+
+{
+"$building"
+}
+
+
+
+
 
 static hasMany = [books:Book,librarians:Librarian, students:Student]
 

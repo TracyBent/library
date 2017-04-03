@@ -3,15 +3,19 @@ package com.tlbent
 class BookReview {
 
 Book book 
-Date dateCreated
+Date dateMade
 Student student
 String review
- 
+String toString ()
+
+{
+"$book"
+} 
 
   static constraints = {
 
 book blank:false, nullable:false 
-dateCreated nullable:false
+dateMade blank: false, nullable:false
 student blank:false, nullable:false 
 review blank:false, nullable:false, maxSize:500 
 
