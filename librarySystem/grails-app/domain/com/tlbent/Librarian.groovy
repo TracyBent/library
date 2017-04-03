@@ -5,18 +5,18 @@ class Librarian {
 String name
 String email
 String office
-String username
+String userName
 String password 
 String telephone
-String library
+Library library
 
     static constraints = {
 
 name blank:false
 email blank:false, email:true
-office blank:false, nullable:false, maxSize:4 
-username blank:false, unique:true
-password blank:false
+office blank:false, nullable:false,maxSize:4
+userName blank:false, unique:true
+password blank:false,nullable:false
 telephone blank:false, size:1..20
 library blank:false, nullable:false  
  

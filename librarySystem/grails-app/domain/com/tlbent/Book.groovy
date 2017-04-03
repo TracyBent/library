@@ -5,11 +5,18 @@ class Book {
 String title 
 String subject
 String author 
-long isbn
+String isbn
+
 Date dateBorrowed 
 Date returnDate 
-String student
+
+Student student
+
 Boolean overdue
+
+Library library
+
+static hasMany = [bookreviews:BookReview]
 
      static constraints = {
 
@@ -20,11 +27,7 @@ isbn blank:false, unique:true
 dateBorrowed blank:false, nullable:false 
 returnDate blank:false, nullable:false 
 student blank:false, nullable:false 
-overdue blank:false, nullable:false 
-
-
-
-
+overdue blank:false
 
 
 
