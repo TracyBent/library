@@ -11,7 +11,7 @@
 
     <div id="content" role="main">
         <section class="row colset-2-its">
-            <h1> Welcome to the Library of.... </h1>
+            <h1> Welcome to the Library of Sheffield </h1>
 
 	<div class ="row">
            <asset:image src = "libraryHome2.jpg"/>

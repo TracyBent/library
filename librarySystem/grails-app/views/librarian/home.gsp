@@ -39,19 +39,7 @@
 </div> 
 
 <div class = "first">
-	
-	<h3>Book</h3>
 
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-<button type = "button" class="btn btn-success">
-<g:link controller ="book" action="create">Book</g:link>
-
-</button> 
-</div> 
-
-<div class = "second">
-	
 	<h3>Student</h3>
 
 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -61,7 +49,9 @@
 
 </button> 
 </div> 
-<div class = "first">
+
+
+<div class = "second">
 	
 	<h3>Course</h3>
 
@@ -73,6 +63,17 @@
 </button> 
 </div> 
 
+<div class = "first">
+	
+	<h3>Book</h3>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+<button type = "button" class="btn btn-success">
+<g:link controller ="book" action="create">Book</g:link>
+
+</button> 
+</div> 
 
 
 </div>
