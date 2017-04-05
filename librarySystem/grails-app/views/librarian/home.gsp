@@ -76,6 +76,22 @@
 </div> 
 
 
+<div class = "second">
+	
+	<h3>Librarian- Advanced Search</h3>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+<button type = "button" class="btn btn-success">
+<g:link controller ="student" action="advSearch">Student Search</g:link>
+
+
+
+
+
+
+
+
 </div>
 </div>
 </body>

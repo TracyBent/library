@@ -22,10 +22,10 @@ static hasMany=[students:Student]
     static constraints = {
 
 title blank:false, nullable:false 
-code blank:false, nullable:false /*maxSize:4*/
+code blank:false, nullable:false, maxSize:4
 leader blank:false, nullable:false 
 department blank:false,nullable:false
-description blank:false,nullable:false /*widget:'textarea'*/
+description blank:false,nullable:false, widget:'textarea'
 studyMode nullable:true
 
 
