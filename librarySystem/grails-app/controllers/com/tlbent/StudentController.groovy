@@ -8,24 +8,26 @@ def login(){
 
 } 
 
-	def validate() {
+def validate() {
 	def user = Student.findByUserName(params.username)
-	if (user && user.password == params.password){ 
+
+if (user && user.password == params.password){ 
+	
 	session.user = user
+	session.role = 'student'
 	render view:'home'
 }
 
-	else
-{
+else{
 
 	flash.message = "Invalid username and password."
 	render view:'login'
-}
-
 
 }
-	def logout = {
+}
+def logout = {
  	session.user = null
+	session.role = null
  	redirect(uri:'/')
 }
 
@@ -38,6 +40,7 @@ def advResults(String title){
 def studentProps = Student.metaClass.properties*.name
 
 def students = Student.withCriteria {
+
  "${params.queryType}" {
 
 params.each { field, value ->

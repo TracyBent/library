@@ -1,8 +1,18 @@
 package com.tlbent
 
+import grails.converters.*
+
 class BookController {
 
+static allowedMethods = [index: "GET", show: "GET"]
+
    def scaffold = Book
+
+def index(Book book){
+
+render Book.list() as XML
+}
+
 
 def advSearch(){}
 
